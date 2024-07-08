@@ -46,7 +46,7 @@ const Home = () => {
                                 <div className='icon'>
                                     <i className='fa fa-edit' /> 
                                 </div>
-                                <Link to={"/clientes"} className='small-box-footer'>Ver Clientes</Link>
+                                <Link to={"/clientes"} className='small-box-footer'>Ver Otros</Link>
                              </div>
                             </div>  
                         </div>
@@ -59,7 +59,7 @@ const Home = () => {
                                 <div className='icon'>
                                     <i className='fa fa-edit' /> 
                                 </div>
-                                <Link to={"/proveedores"} className='small-box-footer'>Ver Clientes</Link>
+                                <Link to={"/proveedores"} className='small-box-footer'>Ver Proveedores</Link>
                              </div>
                             </div>  
                         </div>

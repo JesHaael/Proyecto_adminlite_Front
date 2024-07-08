@@ -8,6 +8,9 @@ import MostrarClientes from './paginas/modulos/MostrarClientes';
 import AgregarClientes from './paginas/modulos/AgregarClientes';
 import EditarClientes from './paginas/modulos/EditarClientes';
 import RutasProtegidas from './paginas/auth/RutasProtegidas';
+import MostrarProveedores from './paginas/modulos/MostrarProveedores';
+import EditarProveedores from './paginas/modulos/EditarProveedores';
+import AgregarProveedores from './paginas/modulos/AgregarProveedores';
 
 
 // importamos el componente
@@ -27,6 +30,9 @@ function App() {
     <Route path='/clientes' exact element = { <RutasProtegidas element={<MostrarClientes />}/>}></Route>
     <Route path='/clientes/agregar' exact element = {<RutasProtegidas element= {<AgregarClientes />}/> }></Route>
     <Route path='/clientes/editar/:id' exact element = {<RutasProtegidas element = {<EditarClientes />}/> }></Route>    
+    <Route path='/proveedores' exact element = { <RutasProtegidas element={<MostrarProveedores />}/>}></Route>
+    <Route path='/proveedores/editar/:id' exact element = {<RutasProtegidas element = {<EditarProveedores />}/> }></Route>
+    <Route path='/proveedores/agregar' exact element = {<RutasProtegidas element= {<AgregarProveedores />}/> }></Route>
 
     </Routes>
     </BrowserRouter>
