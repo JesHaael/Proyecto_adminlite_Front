@@ -41,7 +41,7 @@ const Home = () => {
                             <div className='col-lg-3 col-6'> 
                              <div className='small-box bg-info'>
                                 <div className='inner'>
-                                    <h3>Otro</h3>
+                                    <h3>Productos</h3>
                                 </div>
                                 <div className='icon'>
                                     <i className='fa fa-edit' /> 
